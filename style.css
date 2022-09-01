@@ -259,6 +259,59 @@ ul {
 }
 /* --------------------/Global Classes---------------------- */
 
+/* --------------------Media Query---------------------- */
+
+/* for large screen sm (640px) */
+@media (min-width: 640px) {
+   .container {
+      max-width: 640px;
+   }
+}
+
+/* for large screen md (768px) */
+@media (min-width: 768px) {
+   .container {
+      max-width: 768px;
+   }
+}
+
+/* for large screen lg (1024px) */
+@media (min-width: 1024px) {
+   .container {
+      max-width: 1024px;
+   }
+   #nav .toggle-btn > button {
+      display: none;
+   }
+   #nav {
+      flex-direction: row !important;
+   }
+   .collapse {
+      max-height: initial !important;
+   }
+   .collapse ul {
+      flex-direction: row !important;
+   }
+   .active {
+      max-height: 100% !important;
+   }
+}
+
+/* for large screen xl (1280px) */
+@media (min-width: 1280px) {
+   .container {
+      max-width: 1280px;
+   }
+   #nav {
+      background: transparent !important;
+   }
+   #nav .flex-initial ul button {
+      display: inline-block !important;
+   }
+}
+
+/* --------------------/Media Query---------------------- */
+
 /* --------------------Navigation Style---------------------- */
 
 #nav {
@@ -276,6 +329,7 @@ ul {
    overflow-y: hidden;
    text-align: center;
    padding: 0 3rem;
+   transition: all 0.5s ease;
 }
 
 #nav .collapse ul {
@@ -302,6 +356,6 @@ ul {
 }
 
 .active {
-   max-height: 50vh;
+   max-height: 50vh !important;
 }
 /* --------------------/Navigation Style---------------------- */
