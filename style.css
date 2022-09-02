@@ -12,7 +12,7 @@
    --box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
    --bg-blue: rgb(249, 243, 255);
    --bg-red: rgb(254, 247, 252);
-   --bg-yellow: rgb(246, 255, 255);
+   --bg-yellow: rgb(255, 255, 246);
    --bg-purple: rgb(246, 255, 255);
 
    /* font family */
@@ -463,3 +463,10 @@ ul {
    text-align: center;
 }
 /* --------------------/Counting area Style---------------------- */
+
+/* --------------------Card area Style---------------------- */
+#site-main .card-area .grid {
+   column-gap: 4em;
+   row-gap: 2em;
+}
+/* --------------------/Card area Style---------------------- */
