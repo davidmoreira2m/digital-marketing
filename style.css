@@ -470,3 +470,13 @@ ul {
    row-gap: 2em;
 }
 /* --------------------/Card area Style---------------------- */
+
+/* --------------------Recent Work Style---------------------- */
+#site-main .recent-work-area .images-flex .flex-item {
+   width: 360px;
+   margin-bottom: 50px;
+}
+#site-main .recent-work-area .images-flex .flex-item img {
+   border-radius: 10px;
+}
+/* --------------------/Recent Work Style---------------------- */
